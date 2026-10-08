@@ -4,9 +4,9 @@ Nhóm 2 người một máy. Detector đã khóa. Bạn chọn tracker và ngư�
 
 ## Bài nộp của Phan Danh Đạt — 02627
 
-- [Báo cáo đã điền](submission_template/BAO_CAO_mau.md): cấu hình, số liệu và nhận xét từng video.
+- [Báo cáo](submission/BAO_CAO.md): cấu hình, số liệu và nhận xét từng video.
 - Năm file kết quả đủ frame: [video_1](runs/nop_bai/video_1.txt), [video_2](runs/nop_bai/video_2.txt), [video_3](runs/nop_bai/video_3.txt), [video_4](runs/nop_bai/video_4.txt), [video_5](runs/nop_bai/video_5.txt).
-- [Kết quả chấm video_1](submission_template/VIDEO_1_METRICS.txt), [so sánh ba cấu hình đủ frame](submission_template/SO_SANH_VIDEO_1.csv), [nhật ký thử cấu hình](submission_template/THU_NGHIEM.csv), [kiểm tra đầu ra và SHA-256](submission_template/KIEM_TRA_DAU_RA.csv).
+- [Kết quả chấm video_1](submission/VIDEO_1_METRICS.txt), [so sánh ba cấu hình đủ frame](submission/SO_SANH_VIDEO_1.csv), [nhật ký thử cấu hình](submission/THU_NGHIEM.csv), [kiểm tra đầu ra và SHA-256](submission/KIEM_TRA_DAU_RA.csv).
 - [Notebook ôn tập](on_tap_metrics.ipynb) đã điền đáp án và lưu kết quả chạy dạng văn bản.
 
 `.gitignore` cho phép đưa đúng năm file kết quả vào Git. Dữ liệu, trọng số, video xem thử và các lần chạy thử được giữ ngoài bài nộp.
