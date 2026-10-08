@@ -1,7 +1,20 @@
 lab_data/
-runs/
+# Chỉ nộp năm file MOT; mọi lần chạy thử, kết quả chấm và video đều bỏ qua.
+/runs/*
+!/runs/nop_bai/
+/runs/nop_bai/*
+!/runs/nop_bai/video_1.txt
+!/runs/nop_bai/video_2.txt
+!/runs/nop_bai/video_3.txt
+!/runs/nop_bai/video_4.txt
+!/runs/nop_bai/video_5.txt
 TrackEval/
 *.pt
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
 __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
